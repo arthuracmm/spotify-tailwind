@@ -1,6 +1,6 @@
 import './App.css'
 import { Header} from './components/header'
-import { ASideLeft } from './components/asideleft'
+import { ASideLeft } from './components/aSideLeft'
 import { Main } from './components/main'
 import { ASideRight } from './components/aSideRight'
 import { Footer } from './components/footer'
