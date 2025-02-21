@@ -23,7 +23,7 @@ export function Footer(){
             </div>
             <div className='flex items-center gap-2 text-sm text-white/50'>
               <p>1:39</p>
-              <div className='h-1 w-60 rounded-full bg-white/40 overflow-hidden'>
+              <div className='h-1 w-96 rounded-full bg-white/40 overflow-hidden'>
                 <div className='h-2 w-20 bg-white' />
               </div>
               <p>4:08</p>

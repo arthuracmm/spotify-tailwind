@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# Recriação do Layout do Spotify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de estudo onde recriei o layout do Spotify utilizando **Vite**, **React**, **TailwindCSS** e **Lucide Icons**. O objetivo foi melhorar minhas habilidades com essas ferramentas e aprender mais sobre o processo de construção de interfaces modernas.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Ferramenta para construir e rodar projetos React de forma rápida e otimizada.
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **TailwindCSS**: Framework CSS utilitário para facilitar o desenvolvimento de layouts responsivos e customizados.
+- **Lucide Icons**: Conjunto de ícones para usar em componentes interativos.
 
-## Expanding the ESLint configuration
+## Demonstração
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Aqui estão algumas imagens comparando o layout original do Spotify e a versão recriada:
 
-- Configure the top-level `parserOptions` property like this:
+### Layout Original
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![alt text](image-1.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Layout Recriado
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![alt text](image.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/arthuracmm/spotify-tailwind
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd spotify-tailwind
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+5. Acesse o projeto no seu navegador em [http://localhost:3000](http://localhost:3000).
+
+## Conclusão
+
+Esse projeto foi uma ótima oportunidade para aprofundar meu conhecimento sobre as tecnologias mencionadas e praticar a criação de interfaces responsivas e funcionais.
